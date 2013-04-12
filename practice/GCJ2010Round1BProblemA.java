@@ -1,21 +1,14 @@
-import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
+import static java.lang.System.out;
 
 /**
  * File Fix-it
- * 
  * NOTE: Good design practices are mostly ignored in programming contests.
- * 
  * @author DavidJennings
  *
  */
 public class GCJ2010Round1BProblemA {
-	private Scanner in;
-	private PrintStream out;
+	private Scanner in = new Scanner(System.in);;
 	
 	public static void main(String args[]) {
 		try {
@@ -23,11 +16,6 @@ public class GCJ2010Round1BProblemA {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-	}
-	
-	public GCJ2010Round1BProblemA() {
-		in = new Scanner(System.in);
-		out = System.out;
 	}
 	
 	public void goGo() {
