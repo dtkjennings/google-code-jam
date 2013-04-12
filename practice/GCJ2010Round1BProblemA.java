@@ -8,7 +8,7 @@ import static java.lang.System.out;
  *
  */
 public class GCJ2010Round1BProblemA {
-	private Scanner in = new Scanner(System.in);;
+	private Scanner in = new Scanner(System.in);
 	
 	public static void main(String args[]) {
 		try {
